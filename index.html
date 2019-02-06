@@ -4,18 +4,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="public/img/favicon.ico" />
-    <link rel="stylesheet" href="public/css/bootstrap.css">
-    <link rel="stylesheet" href="public/css/bootstrap-responsive.css">
-    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="public/css/styles.css">
     <title>Présentation du projet monAMAP</title>
 </head>
 <body>
 <main>
-    <h1 id="titre" > Présentation du site de l'AMAP d'O </h1>
+    <h1 class="text-center" > Présentation du site de l'AMAP d'O </h1>
     <article>
         <h1>
             Contexte
         </h1>
+
         <p>
             Ce projet a été réalisé dans le cadre de l'IUT, en tant que projet tuteuré du semestre 3
         </p>
@@ -25,41 +27,51 @@
         <h1>
             Qu'est ce qu'une AMAP ?
         </h1>
-        <p>
-            <ul>
-                <li><img src="public/images/bulle1.png" alt="rencontre"> </li>
-                <li><img src="public/images/bulle2.png" alt="panier"> </li>
-                <li><img src="public/images/bulle3.png" alt="joie"> </li>
-                <li><img src="public/images/bulle4.png" alt="bio"> </li>
-                <li><img src="public/images/bulle5.png" alt="prix"> </li>
-                <li><img src="public/images/bulle6.png" alt="calendrier"> </li>
-            </ul>
-        </p>
+        <div class="container">
+            <div class="row">
+                <div data-toggle="tooltip" data-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium alias autem doloremque error et tempora velit! Eligendi, excepturi fuga illum ipsa minus molestiae natus perferendis quibusdam recusandae reprehenderit sint!" class="col">
+                    <img src="public/images/bulle1.png" alt="rencontre">
+                </div>
+
+                <div data-toggle="tooltip" data-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium alias autem doloremque error et tempora velit! Eligendi, excepturi fuga illum ipsa minus molestiae natus perferendis quibusdam recusandae reprehenderit sint!" class="col">
+                    <img src="public/images/bulle2.png" alt="panier">
+                </div>
+
+                <div data-toggle="tooltip" data-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium alias autem doloremque error et tempora velit! Eligendi, excepturi fuga illum ipsa minus molestiae natus perferendis quibusdam recusandae reprehenderit sint!" class="col">
+                    <img src="public/images/bulle4.png" alt="bio">
+                </div>
+                <div data-toggle="tooltip" data-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium alias autem doloremque error et tempora velit! Eligendi, excepturi fuga illum ipsa minus molestiae natus perferendis quibusdam recusandae reprehenderit sint!" class="col">
+                    <img src="public/images/bulle3.png" alt="joie">
+                </div>
+
+                <div data-toggle="tooltip" data-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium alias autem doloremque error et tempora velit! Eligendi, excepturi fuga illum ipsa minus molestiae natus perferendis quibusdam recusandae reprehenderit sint!" class="col">
+                    <img src="public/images/bulle5.png" alt="prix">
+                </div>
+
+                <div data-toggle="tooltip" data-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium alias autem doloremque error et tempora velit! Eligendi, excepturi fuga illum ipsa minus molestiae natus perferendis quibusdam recusandae reprehenderit sint!" class="col">
+                    <img src="public/images/bulle6.png" alt="calendrier">
+                </div>
+            </div>
+        </div>
     </article>
     <article>
         <h1>
             Organisation du projet
         </h1>
-        <p>
-            <ul>
-                <li><img src="public/images/bulle7.png" alt="groupe"> </li>
-            </ul>
-        </p>
+        <div data-toggle="tooltip" data-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium alias autem doloremque error et tempora velit! Eligendi, excepturi fuga illum ipsa minus molestiae natus perferendis quibusdam recusandae reprehenderit sint!" class="col">
+            <img src="public/images/bulle7.png" alt="groupe">
+        </div>
     </article>
     <article>
         <h1>
             Fonctionalités
         </h1>
-
-        <div data-toggle="tooltip" data-placement="top" title="Tooltip on top">Test</div>
-
     </article>
 </main>
 <footer></footer>
-<script src="public/js/popper.js"></script>
-<script src="public/js/jquery/dist/jquery.js"></script>
-<script src="public/js/bootstrap.js"></script>
-<script src="public/js/bootstrap.min.js"></script>
+<script src="lib/jquery/dist/jquery.js"></script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="lib/bootstrap/js/bootstrap.bundle.js"></script>
 <script src="public/js/script.js"></script>
 </body>
 </html>
