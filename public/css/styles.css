@@ -15,3 +15,15 @@ img {
 .modal-full .modal-content {
     min-height: 70vh;
 }
+
+.tooltip .tooltip-inner {
+    /*
+    background-color: rgba(234, 205, 159, 1);
+    */
+    background-color: red;
+    color: black;
+    max-width: 45vw;
+    width: auto;
+    height: auto;
+    font-size: 2vw;
+}
