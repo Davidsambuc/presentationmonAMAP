@@ -1,10 +1,10 @@
 @font-face {
-	font-family: "Philosopher"; 
+	font-family: "Philosopher";
 	src: url("font/Philosopher-Regular.ttf");
-} 
+}
 
 * {
-	font-family: "Philosopher";
+	font-family: "Philosopher", serif;
 }
 
 body {
@@ -16,15 +16,9 @@ img {
     height: auto;
 }
 
-.modal-full {
-    min-width: 60%;
-    margin: 0;
+h1 {
+	font-size: 3vw;
 }
-
-.modal-full .modal-content {
-    min-height: 70vh;
-}
-
 
 img:hover {
 	width: 310px;
@@ -35,6 +29,10 @@ img, img:hover{
 	transition: width .5s;
 }
 
+#titre {
+	font-size: 5vw;
+}
+
 #art1 {
 	background-color: #99cfca;
 }
@@ -43,7 +41,7 @@ img, img:hover{
 }
 
 #art2 {
-	background-color: #93c0c3; 
+	background-color: #93c0c3;
 }
 #art2:hover {
 	background-color: #c3e8e7;
@@ -62,14 +60,6 @@ img, img:hover{
 	background-color: #b3e5e2;
 }
 
-h1 {
-	font-size: 3vw;
-}
-
-#titre {
-	font-size: 5vw;
-}
-
 #art1, #art1:hover {
 	transition: background-color .5s;
 }
@@ -83,14 +73,59 @@ h1 {
 	transition: background-color .5s;
 }
 
+/**************************
+**********TOOLTIP*********
+ ***********************/
+.tooltip {
+	opacity: 1 !important;
+}
+
 .tooltip .tooltip-inner {
-    /*
     background-color: rgba(234, 205, 159, 1);
-    */
-    background-color: red;
     color: black;
     max-width: 45vw;
     width: auto;
     height: auto;
     font-size: 2vw;
 }
+/**************************
+**********TOOLTIP*********
+ ***********************/
+
+
+
+
+/***********************
+**********MODAL*********
+ ***********************/
+
+.modal-full {
+	min-width: 60%;
+	margin: 0;
+}
+
+.modal-full .modal-content {
+	min-height: 70vh;
+}
+
+.modal {
+	text-align: center;
+}
+
+.modal::before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	margin-right: -4px;
+	vertical-align: middle;
+}
+
+.modal-dialog {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+}
+
+/***********************
+**********MODAL*********
+ ***********************/
