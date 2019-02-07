@@ -25,6 +25,7 @@ img {
     min-height: 70vh;
 }
 
+
 img:hover {
 	width: 310px;
 	cursor: pointer;
@@ -80,4 +81,16 @@ h1 {
 }
 #art4, #art4:hover {
 	transition: background-color .5s;
+}
+
+.tooltip .tooltip-inner {
+    /*
+    background-color: rgba(234, 205, 159, 1);
+    */
+    background-color: red;
+    color: black;
+    max-width: 45vw;
+    width: auto;
+    height: auto;
+    font-size: 2vw;
 }
