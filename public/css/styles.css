@@ -15,3 +15,7 @@ img {
 .modal-full .modal-content {
     min-height: 70vh;
 }
+
+img:hover {
+	width: 310px;
+}
