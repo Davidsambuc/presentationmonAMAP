@@ -6,3 +6,12 @@ img {
     width: 300px;
     height: auto;
 }
+
+.modal-full {
+    min-width: 60%;
+    margin: 0;
+}
+
+.modal-full .modal-content {
+    min-height: 70vh;
+}
