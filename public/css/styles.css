@@ -1,3 +1,12 @@
+@font-face {
+	font-family: "Philosopher"; 
+	src: url("font/Philosopher-Regular.ttf");
+} 
+
+* {
+	font-family: "Philosopher";
+}
+
 body {
   background-color: powderblue;
 }
@@ -18,4 +27,57 @@ img {
 
 img:hover {
 	width: 310px;
+	cursor: pointer;
+}
+
+img, img:hover{
+	transition: width .5s;
+}
+
+#art1 {
+	background-color: #99cfca;
+}
+#art1:hover {
+	background-color: #aaf6ee;
+}
+
+#art2 {
+	background-color: #93c0c3; 
+}
+#art2:hover {
+	background-color: #c3e8e7;
+}
+
+#art3 {
+	background-color: #9fd1d4;
+}
+#art3:hover {
+	background-color: #b3e5e1;
+}
+#art4 {
+	background-color: #93c0c3;
+}
+#art4:hover {
+	background-color: #b3e5e2;
+}
+
+h1 {
+	font-size: 3vw;
+}
+
+#titre {
+	font-size: 5vw;
+}
+
+#art1, #art1:hover {
+	transition: background-color .5s;
+}
+#art2, #art2:hover {
+	transition: background-color .5s;
+}
+#art3, #art3:hover {
+	transition: background-color .5s;
+}
+#art4, #art4:hover {
+	transition: background-color .5s;
 }
