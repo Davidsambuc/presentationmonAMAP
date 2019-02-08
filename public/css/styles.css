@@ -12,7 +12,7 @@ body {
 }
 
 img {
-    width: 300px;
+    width: 15vw;
     height: auto;
 }
 
@@ -100,16 +100,32 @@ img, img:hover{
  ***********************/
 
 .modal-full {
-	min-width: 60%;
+	min-width: 70%;
 	margin: 0;
 }
 
 .modal-full .modal-content {
-	min-height: 70vh;
+	min-height: 80vh;
 }
 
 .modal {
 	text-align: center;
+}
+
+.modal-content {
+    max-height: 95vh;
+    overflow: scroll;
+}
+
+
+.carousel-inner {
+    text-align: center !important;
+}
+
+.carousel-item > img {
+    text-align: center !important;
+    width: 60vw !important;
+    height: 80vh !important;
 }
 
 .modal::before {
