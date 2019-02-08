@@ -21,7 +21,7 @@ h1 {
 }
 
 img:hover {
-	width: 310px;
+	width: 17vw;
 	cursor: pointer;
 }
 
@@ -81,12 +81,12 @@ img, img:hover{
 }
 
 .tooltip .tooltip-inner {
-    background-color: rgba(234, 205, 159, 1);
+    background-color: rgb(18, 139, 54);
     color: black;
     max-width: 45vw;
     width: auto;
     height: auto;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 /**************************
 **********TOOLTIP*********
@@ -126,6 +126,7 @@ img, img:hover{
     text-align: center !important;
     width: 60vw !important;
     height: 80vh !important;
+    cursor: default;
 }
 
 .modal::before {
