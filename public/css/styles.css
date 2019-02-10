@@ -29,6 +29,12 @@ img, img:hover{
 	transition: width .5s;
 }
 
+a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
 #titre {
 	font-size: 5vw;
 }
@@ -141,6 +147,11 @@ img, img:hover{
 	display: inline-block;
 	text-align: left;
 	vertical-align: middle;
+}
+
+#names {
+    max-height: 16vh;
+    overflow-y: hidden;
 }
 
 /***********************

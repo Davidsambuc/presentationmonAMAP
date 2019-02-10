@@ -1,6 +1,12 @@
-$( "#bulle7").click(function () {
-    $('#myModal').modal('show');
-});
+for (let i =1; i<16; i++) {
+    let selector = "#bulle" + i;
+    console.log(selector);
+    $(selector).click(function () {
+        let selector1 = '#myModal' + i;
+        console.log(selector1);
+        $(selector1).modal('show');
+    });
+}
 
 $(document).ready(function(){
     $("#toptip").tooltip({
