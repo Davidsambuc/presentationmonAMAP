@@ -87,12 +87,15 @@ a {
 }
 
 .tooltip .tooltip-inner {
-    background-color: rgb(18, 139, 54);
+    background-color: rgb(190, 236, 190);
     color: black;
     max-width: 45vw;
     width: auto;
     height: auto;
     font-size: 1.5vw;
+    border-style: solid;
+    border-color: #215421;
+    font-weight: bold;
 }
 /**************************
 **********TOOLTIP*********
