@@ -154,6 +154,21 @@ a {
     overflow-y: scroll;
 }
 
+#merci {
+	height: 40vh !important;
+	margin-top: 10vh;
+}
+
+#msg {
+	height: 50vh !important;
+}
+
+#articles, #creme, #ecrire, #pdf, #livredor, #mail, #contact {
+	height: 60vh !important;
+}
+
+
 /***********************
 **********MODAL*********
  ***********************/
+
