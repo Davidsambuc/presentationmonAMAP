@@ -138,6 +138,27 @@ a {
     cursor: default;
 }
 
+.carousel-caption > h3 {
+	color: darkred !important;
+}
+
+.carousel-caption > p {
+	color: darkred !important;
+}
+
+
+.carousel-control-prev > span {
+	background-color: darkred !important;
+}
+
+.carousel-control-next > span {
+	background-color: darkred !important;
+}
+
+.carousel-indicators > li {
+	background-color: darkred !important;
+}
+
 .modal::before {
 	content: "";
 	display: inline-block;
@@ -152,9 +173,8 @@ a {
 	vertical-align: middle;
 }
 
-#names {
-    max-height: 16vh;
-    overflow-y: scroll;
+#small, #small1 {
+	width: 30vw !important;
 }
 
 #merci {
@@ -174,4 +194,3 @@ a {
 /***********************
 **********MODAL*********
  ***********************/
-
