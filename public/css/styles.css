@@ -139,24 +139,24 @@ a {
 }
 
 .carousel-caption > h3 {
-	color: darkred !important;
+	color: #252a24 !important;
 }
 
 .carousel-caption > p {
-	color: darkred !important;
+	color: #252a24 !important;
 }
 
 
 .carousel-control-prev > span {
-	background-color: darkred !important;
+	background-color: #879284 !important;
 }
 
 .carousel-control-next > span {
-	background-color: darkred !important;
+	background-color: #879284 !important;
 }
 
 .carousel-indicators > li {
-	background-color: darkred !important;
+	background-color: #252a24 !important;
 }
 
 .modal::before {
